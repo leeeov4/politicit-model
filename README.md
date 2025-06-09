@@ -13,15 +13,13 @@ Developed for the [PoliticIT Challenge @ EVALITA 2023](https://evalita.it/campai
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/politicit-model.git
+git clone https://github.com/leeeov4/politicit-model.git
 cd politicit-model
 pip install -r requirements.txt
 ```
 
 
 ## Usage
-
-
 
 ```python
 from politicit import PoliticITModel, print_prediction
