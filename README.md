@@ -22,7 +22,8 @@ pip install -r requirements.txt
 ## Usage
 
 ```python
-from politicit import PoliticITModel, print_prediction
+from politicit import PoliticITModel
+from politicit.utils import print_prediction
 
 model = PoliticITModel()
 outputs = model.predict("")
