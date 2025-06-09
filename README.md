@@ -86,5 +86,5 @@ The model is automatically downloaded and cached when you instantiate `PoliticIT
 
 ## Repository Contents
 - `politicit/` – Core Python package (model loading, preprocessing, inference)
-- `notebook/` – Jupyter notebooks with data exploration, hyperparameter tuning, and model training 
+- `notebook/` – Jupyter notebooks with: data exploration, hyperparameter tuning and model training, usage example
 - `report.pdf` - Full project report detailing the methodology, results, and evaluation
