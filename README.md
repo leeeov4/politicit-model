@@ -79,7 +79,7 @@ The model is hosted on the Hugging Face Hub:
 [leeeov4/PIDIT on Hugging Face](https://huggingface.co/leeeov4/PIDIT)
 
 It includes:
-- Trained model weights (`.h5`)
+- Trained model
 - Tokenizers (`bert_tokenizer`, `alberto_tokenizer`)
 
 The model is automatically downloaded and cached when you instantiate `PoliticITModel`.
