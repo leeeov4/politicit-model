@@ -22,13 +22,13 @@ pip install -r requirements.txt
 ## Usage
 
 ```python
-from politicit import PoliticITModel
-from politicit.utils import print_prediction
+from politicit_model import PoliticITModel
+from politicit_model.utils import print_prediction
 
 model = PoliticITModel()
-outputs = model.predict("")
+result = model.predict("Oggi, sabato 31 dicembre, alle ore 9.34, nel Monastero Mater Ecclesiae in Vaticano, il Signore ha chiamato a Sé il Santo Padre Emerito Benedetto XVI.")
 
-model.print_prediction(outputs)
+model.print_prediction(result)
 ```
 
 Sample Output:
