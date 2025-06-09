@@ -35,18 +35,18 @@ Sample Output:
 
 ```matlab
 Gender:
-  - Male: 81.23%     [========  ]
-  - Female: 18.77%   [==        ]
+  - Male: 33.85%     [===       ]
+  - Female: 66.15%   [======    ]
 
 Political ideology (binary):
-  - Left: 12.45%    [=         ]
-  - Right: 87.55%   [========= ]
+  - Left: 71.65%     [=======   ]
+  - Right: 28.35%    [==        ]
 
 Political ideology (multiclass):
-  - Left: 8.12%             [=         ]
-  - Right: 76.53%           [========  ]
-  - Moderate left: 10.89%   [==        ]
-  - Moderate right: 4.46%   [=         ]
+  - 'Left': 36.18%             [===       ]
+  - 'Right': 29.54%            [==        ]
+  - 'Moderate left': 9.92%     [          ]
+  - 'Moderate right': 24.36%   [==        ]
 ```
 
 The `predict()` method returns a tuple of 3 arrays:
